@@ -1,8 +1,11 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose");
 
-mongoose.connect(process.env.DB,{
-    useNewUrlParser: true,
-    useUnifiedTopology : true,
-    useCreateIndex : true,
-    useFindAndModify:false
-})
+mongoose.connect(
+	"mongodb+srv://durandal:durandal@letsc0de.yirct.mongodb.net/rozgaar",
+	{
+		useNewUrlParser: true,
+		useUnifiedTopology: true,
+		useCreateIndex: true,
+		useFindAndModify: false,
+	},
+);
